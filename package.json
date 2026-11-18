@@ -1,0 +1,13 @@
+{
+  "name": "lnu-map",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "mobile": "npm --prefix mobile start",
+    "backend": "npm --prefix backend run dev",
+    "typecheck": "npm --prefix backend run typecheck && npm --prefix mobile run typecheck"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
